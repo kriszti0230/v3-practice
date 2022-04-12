@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+   box-sizing: border-box;
+}
+
+div.first {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+div.first ~ div {
+    border-left: 10px solid greenyellow;
+}
+
+div.first.most-inner {
+    border-radius: 50%;
+}
+
+div.first.most-inner::before { 
+    content: "A";
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+
+    background-color: green;
+    
+}
+
+div.first.most-inner::after { 
+    content: "B";
+}
+
+
+div.first.most-inner:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+body > div.first, 
+body.first.most-inner {
+    border-bottom: 10px solid whitesmoke;
+}
+
+body > div{
+    height: 100vh;
+    width: 100vh;
+    background-color: rgb(89, 123, 152);
+}
+
+body > div > div{
+    height: 90vh;
+    width: 90vh;
+    background-color: rgb(19, 183, 25);
+}
+
+body > div > div > div {
+    height: 80vh;
+    width: 80vh;
+    background-color: rgb(111, 14, 69);
+} 
+
+body > div > div > div > div{ 
+    height: 70vh;
+    width: 70vh;
+    background-color: rgb(111, 96, 14);
+} 
+
+body > div > div > div > div > div{
+    height: 60vh;
+    width: 60vh;
+    background-color: rgb(14, 96, 111);
+} 
+
+body > div > div > div > div > div > div{
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(239, 22, 22);
+} 
+
+body > div > div > div > div > div > div > div{
+    height: 40vh;
+    width: 40vh;
+    background-color: rgb(59, 240, 55);
+} 
+
+body > div > div > div > div > div > div > div > div{
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(42, 35, 39);
+} 
+
+body > div > div > div > div > div > div > div > div > div{
+    height: 20vh;
+    width: 20vh;
+    background-color: rgb(105, 138, 165);
+} 
+
+body > div > div > div > div > div > div > div > div > div > div{
+    height: 10vh;
+    width: 10vh;
+    background-color: rgb(10, 9, 10);
+}
