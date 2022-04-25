@@ -1,5 +1,5 @@
 body, 
-body {
+body *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -38,7 +38,7 @@ header nav button{
     background-color: aquamarine;
 }
 
-.image-container {
+.image-container{
     overflow: hidden;
 }
 
@@ -50,20 +50,24 @@ header nav button{
 
 .background-container{
     padding: 40px;
-    
-    background-image: url("https://codecool.com/wp-content/uploads/2021/09/Home-Header.jpg");
+    background-image: url(https://codecool.com/wp-content/uploads/2021/09/Home-Header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-
 }
+
 .gradient{
-    background-image: linear-gradient(red, blue);
+    background-image: linear-gradient(yellow,blue);
 }
 
 div{
     box-sizing: border-box;
+    padding: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: none;
+    
 }
 
 div.first{
@@ -71,7 +75,7 @@ div.first{
     border-top-right-radius: 50%;
 }
 
-div.first ~ div{
+div.first ~ div {
     border-left: 10px solid pink;
 }
 
@@ -102,7 +106,6 @@ body > div.first,
 div.first.most-inner {
     border-bottom: 10px solid whitesmoke;
 }
-
 body > div{
     width: 100vh;
     height: 100vh; 
@@ -138,6 +141,7 @@ body > div > div > div > div > div > div{
     height: 50vh; 
     background-color: #006ACC;
 }
+
 body > div > div > div > div > div > div > div{
     width: 40vh;
     height: 40vh; 

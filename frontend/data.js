@@ -1,209 +1,209 @@
-let myFavoriteCountry = { 
-        "name": {
-        "common": "Mauritius",
-        "official": "Republic of Mauritius",
+let myFavouriteCountry = {
+    "name": {
+        "common": "Chile",
+        "official": "Republic of Chile",
         "nativeName": {
-            "eng": {
-                "official": "Republic of Mauritius",
-                "common": "Mauritius"
-            },
-            "fra": {
-                "official": "République de Maurice",
-                "common": "Maurice"
-            },
-            "mfe": {
-                "official": "Republik Moris",
-                "common": "Moris"
+            "spa": {
+                "official": "República de Chile",
+                "common": "Chile"
             }
         }
     },
     "tld": [
-        ".mu"
+        ".cl"
     ],
-    "cca2": "MU",
-    "ccn3": "480",
-    "cca3": "MUS",
-    "cioc": "MRI",
+    "cca2": "CL",
+    "ccn3": "152",
+    "cca3": "CHL",
+    "cioc": "CHI",
     "independent": true,
     "status": "officially-assigned",
     "unMember": true,
     "currencies": {
-        "MUR": {
-            "name": "Mauritian rupee",
-            "symbol": "₨"
+        "CLP": {
+            "name": "Chilean peso",
+            "symbol": "$"
         }
     },
     "idd": {
-        "root": "+2",
+        "root": "+5",
         "suffixes": [
-            "30"
+            "6"
         ]
     },
     "capital": [
-        "Port Louis"
+        "Santiago"
     ],
     "altSpellings": [
-        "MU",
-        "Republic of Mauritius",
-        "République de Maurice"
+        "CL",
+        "Republic of Chile",
+        "República de Chile"
     ],
-    "region": "Africa",
-    "subregion": "Eastern Africa",
+    "region": "Americas",
+    "subregion": "South America",
     "languages": {
-        "eng": "English",
-        "fra": "French",
-        "mfe": "Mauritian Creole"
+        "spa": "Spanish"
     },
     "translations": {
         "ara": {
-            "official": "جمهورية موريشيوس",
-            "common": "موريشيوس"
+            "official": "جمهورية تشيلي",
+            "common": "تشيلي"
         },
         "ces": {
-            "official": "Mauricijská republika",
-            "common": "Mauricius"
+            "official": "Chilská republika",
+            "common": "Chile"
         },
         "cym": {
-            "official": "Republic of Mauritius",
-            "common": "Mauritius"
+            "official": "Gweriniaeth Chile",
+            "common": "Chile"
         },
         "deu": {
-            "official": "Republik Mauritius",
-            "common": "Mauritius"
+            "official": "Republik Chile",
+            "common": "Chile"
         },
         "est": {
-            "official": "Mauritiuse Vabariik",
-            "common": "Mauritius"
+            "official": "Tšiili Vabariik",
+            "common": "Tšiili"
         },
         "fin": {
-            "official": "Mauritiuksen tasavalta",
-            "common": "Mauritius"
+            "official": "Chilen tasavalta",
+            "common": "Chile"
         },
         "fra": {
-            "official": "République de Maurice",
-            "common": "Île Maurice"
+            "official": "République du Chili",
+            "common": "Chili"
         },
         "hrv": {
-            "official": "Republika Mauricijus",
-            "common": "Mauricijus"
+            "official": "Republika Čile",
+            "common": "Čile"
         },
         "hun": {
-            "official": "Mauritiusi Köztársaság",
-            "common": "Mauritius"
+            "official": "Chilei Köztársaság",
+            "common": "Chile"
         },
         "ita": {
-            "official": "Repubblica di Mauritius",
-            "common": "Mauritius"
+            "official": "Repubblica del Cile",
+            "common": "Cile"
         },
         "jpn": {
-            "official": "モーリシャス共和国",
-            "common": "モーリシャス"
+            "official": "チリ共和国",
+            "common": "チリ"
         },
         "kor": {
-            "official": "모리셔스 공화국",
-            "common": "모리셔스"
+            "official": "칠레 공화국",
+            "common": "칠레"
         },
         "nld": {
-            "official": "Republiek Mauritius",
-            "common": "Mauritius"
+            "official": "Republiek Chili",
+            "common": "Chili"
         },
         "per": {
-            "official": "جمهوری موریس",
-            "common": "موریس"
+            "official": "جمهوری شیلی",
+            "common": "شیلی"
         },
         "pol": {
-            "official": "Republika Mauritiusu",
-            "common": "Mauritius"
+            "official": "Republika Chile",
+            "common": "Chile"
         },
         "por": {
-            "official": "República das Maurícias",
-            "common": "Maurício"
+            "official": "República do Chile",
+            "common": "Chile"
         },
         "rus": {
-            "official": "Республика Маврикий",
-            "common": "Маврикий"
+            "official": "Республика Чили",
+            "common": "Чили"
         },
         "slk": {
-            "official": "Maurícijská republika",
-            "common": "Maurícius"
+            "official": "Čílska republika",
+            "common": "Čile"
         },
         "spa": {
-            "official": "República de Mauricio",
-            "common": "Mauricio"
+            "official": "República de Chile",
+            "common": "Chile"
         },
         "swe": {
-            "official": "Republiken Mauritius",
-            "common": "Mauritius"
+            "official": "Republiken Chile",
+            "common": "Chile"
         },
         "urd": {
-            "official": "جمہوریہ موریشس",
-            "common": "موریشس"
+            "official": "جمہوریہ چلی",
+            "common": "چلی"
         },
         "zho": {
-            "official": "毛里求斯共和国",
-            "common": "毛里求斯"
+            "official": "智利共和国",
+            "common": "智利"
         }
     },
     "latlng": [
-        -20.28333333,
-        57.55
+        -30,
+        -71
     ],
     "landlocked": false,
-    "area": 2040,
+    "borders": [
+        "ARG",
+        "BOL",
+        "PER"
+    ],
+    "area": 756102,
     "demonyms": {
         "eng": {
-            "f": "Mauritian",
-            "m": "Mauritian"
+            "f": "Chilean",
+            "m": "Chilean"
         },
         "fra": {
-            "f": "Mauricienne",
-            "m": "Mauricien"
+            "f": "Chilienne",
+            "m": "Chilien"
         }
     },
-    "flag": "🇲🇺",
+    "flag": "🇨🇱",
     "maps": {
-        "googleMaps": "https://goo.gl/maps/PpKtZ4W3tir5iGrz7",
-        "openStreetMaps": "https://www.openstreetmap.org/relation/535828"
+        "googleMaps": "https://goo.gl/maps/XboxyNHh2fAjCPNn9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/167454"
     },
-    "population": 1265740,
+    "population": 19116209,
     "gini": {
-        "2017": 36.8
+        "2017": 44.4
     },
-    "fifa": "MRI",
+    "fifa": "CHI",
     "car": {
         "signs": [
-            "MS"
+            "RCH"
         ],
-        "side": "left"
+        "side": "right"
     },
     "timezones": [
-        "UTC+04:00"
+        "UTC-06:00",
+        "UTC-04:00"
     ],
     "continents": [
-        "Africa"
+        "South America"
     ],
     "flags": {
-        "png": "https://flagcdn.com/w320/mu.png",
-        "svg": "https://flagcdn.com/mu.svg"
+        "png": "https://flagcdn.com/w320/cl.png",
+        "svg": "https://flagcdn.com/cl.svg"
     },
     "coatOfArms": {
-        "png": "https://mainfacts.com/media/images/coats_of_arms/mu.png",
-        "svg": "https://mainfacts.com/media/images/coats_of_arms/mu.svg"
+        "png": "https://mainfacts.com/media/images/coats_of_arms/cl.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/cl.svg"
     },
     "startOfWeek": "monday",
     "capitalInfo": {
         "latlng": [
-            -20.15,
-            57.48
+            -33.45,
+            -70.67
         ]
+    },
+    "postalCode": {
+        "format": "#######",
+        "regex": "^(\\d{7})$"
     }
 }
 
-let v1 = myFavoriteCountry.tld [0]
+let v1 = myFavouriteCountry.tld[0]
 console.log(v1)
 
-let v2 = myFavoriteCountry.name.nativeName.fra.official
+let v2 = myFavouriteCountry.name.nativeName.spa.official
 console.log(v2)
 
-let v3 = myFavoriteCountry.idd.suffixes[3]
+let v3 = myFavouriteCountry.idd.suffixes[0]
 console.log(v3)
